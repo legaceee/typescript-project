@@ -2,6 +2,8 @@
   // Visit https://aka.ms/tsconfig to read more about this file
   "compilerOptions": {
     // File Layout
+    "esModuleInterop": true,
+    "moduleResolution": "NodeNext",
     "rootDir": "./src",
     "outDir": "./dist",
 
